@@ -1,0 +1,5 @@
+##Installation on Localhost XAMPP
+- Rename file "env" menjadi ".env" yang ada di directory "codeigniter4" 
+- Pada file "codeigniter4/.env", ubah sintak "CI_ENVIRONMENT = production" menjadi "CI_ENVIRONMENT = development"
+- Pastikan file "PHP.ini" yang ada pada XAMPP, ubah sintak ";extension=intl" menjadi "extension=intl"
+- Sika semua langkah2 diatas sudah, Project CI4 sudah bisa di jalankan di browser.
